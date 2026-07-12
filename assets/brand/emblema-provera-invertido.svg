@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Emblema Proverá Locações (invertido)">
+  <title>Proverá — emblema invertido</title>
+  <desc>Quadrado vermelho com monograma branco, para fundos escuros.</desc>
+  <defs>
+    <clipPath id="pv-sq3"><rect width="100" height="100" rx="6"/></clipPath>
+  </defs>
+  <rect width="100" height="100" rx="6" fill="#BC000E"/>
+  <g clip-path="url(#pv-sq3)" fill="#FFFFFF">
+    <polygon points="56,-3 79,-3 100,40 77,75 60,75 74,40"/>
+    <polygon points="35,39 52,39 21,100 2,100"/>
+  </g>
+</svg>

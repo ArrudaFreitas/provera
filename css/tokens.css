@@ -1,0 +1,76 @@
+:root {
+
+  --red-50: #FAEDEE;
+  --red-100: #F2CCCF;
+  --red-200: #E3949A;
+  --red-300: #D35760;
+  --red-400: #C62632;
+  --red-500: #BC000E;
+  --red-600: #9E000C;
+  --red-700: #7C0009;
+  --red-800: #5A0007;
+  --red-900: #3C0004;
+  --color-primary: var(--red-500);
+  --color-primary-hover: var(--red-700);
+  --color-primary-tint: var(--red-50);
+
+  --amber-50: #FEF5E7;
+  --amber-100: #FDE8C4;
+  --amber-200: #FAD08A;
+  --amber-300: #F8BB54;
+  --amber-400: #F6AB2B;
+  --amber-500: #F59E0B;
+  --amber-600: #D38809;
+  --amber-700: #AC6F08;
+  --amber-800: #7F5206;
+  --amber-900: #583904;
+  --color-accent: var(--amber-500);
+  --color-accent-hover: var(--amber-700);
+
+  --gray-50: #F7F7F9;
+  --gray-100: #EDEEF1;
+  --gray-200: #E1E2E7;
+  --gray-300: #C9CBD3;
+  --gray-400: #9A9DA8;
+  --gray-500: #6E7280;
+  --gray-600: #4E515C;
+  --gray-700: #3A3C45;
+  --gray-800: #26272E;
+  --gray-900: #16171B;
+  --color-ink: var(--gray-900);
+  --color-muted: var(--gray-600);
+  --color-border: var(--gray-200);
+  --color-surface: #FFFFFF;
+  --color-surface-alt: var(--gray-50);
+
+  --color-whatsapp: #25D366;
+  --color-whatsapp-hover: #1EAE53;
+  --color-success: #1EAE53;
+  --color-danger: var(--red-600);
+  --color-warning: var(--amber-500);
+  --color-info: #2563EB;
+
+  --font-display: "Barlow Semi Condensed", "Barlow", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-body: "Barlow", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --fw-regular: 400; --fw-medium: 500; --fw-semibold: 600; --fw-bold: 700; --fw-black: 900;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: clamp(1.25rem, 0.9rem + 1.2vw, 1.5rem);
+  --text-2xl: clamp(1.5rem, 1.1rem + 1.8vw, 2rem);
+  --text-3xl: clamp(1.875rem, 1.3rem + 2.6vw, 2.75rem);
+  --text-4xl: clamp(2.25rem, 1.4rem + 3.8vw, 3.75rem);
+  --leading-tight: 1.1; --leading-snug: 1.25; --leading-normal: 1.55;
+
+  --space-1: 0.25rem; --space-2: 0.5rem; --space-3: 0.75rem; --space-4: 1rem;
+  --space-5: 1.5rem; --space-6: 2rem; --space-8: 3rem; --space-10: 4rem; --space-12: 6rem;
+
+  --radius-sm: 6px; --radius-md: 10px; --radius-lg: 16px; --radius-full: 9999px;
+  --shadow-sm: 0 1px 2px rgba(22,23,27,.06), 0 1px 3px rgba(22,23,27,.10);
+  --shadow-md: 0 4px 8px rgba(22,23,27,.08), 0 2px 4px rgba(22,23,27,.06);
+  --shadow-lg: 0 12px 24px rgba(22,23,27,.10), 0 4px 8px rgba(22,23,27,.06);
+
+  --container-max: 75rem;
+}

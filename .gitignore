@@ -1,0 +1,6 @@
+# Configurações locais do Claude Code (específicas da máquina)
+.claude/settings.local.json
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
