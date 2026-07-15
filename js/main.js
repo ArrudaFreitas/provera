@@ -244,8 +244,19 @@
   if (sendEl) { sendEl.target = "_blank"; sendEl.rel = "noopener"; }
 
   const header = $("[data-header]");
-  const onScroll = () => header.classList.toggle("is-scrolled", window.scrollY > 8);
+  const fab = $(".wa-fab");
+  const productGrid = $("[data-grid]");
+  function onScroll() {
+    header.classList.toggle("is-scrolled", window.scrollY > 8);
+    if (fab && productGrid) {
+      const rect = productGrid.getBoundingClientRect();
+      const probeY = window.innerHeight - 56;
+      const overProducts = rect.top <= probeY && rect.bottom >= probeY;
+      fab.classList.toggle("is-hidden", overProducts);
+    }
+  }
   window.addEventListener("scroll", onScroll, { passive: true });
+  window.addEventListener("resize", onScroll, { passive: true });
   onScroll();
 
   const yearEl = $("[data-year]");
